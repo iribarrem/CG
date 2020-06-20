@@ -31,6 +31,6 @@ while True:
   screen.blit(square, (square_rect.x + 300, square_rect.y + 300))
 
   pg.display.update()
-  pg.time.delay(1000)
+  pg.time.delay(100)
   
 pg.quit()
